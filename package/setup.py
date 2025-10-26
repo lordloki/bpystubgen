@@ -9,7 +9,7 @@ build_number = "#BUILD_NUMBER#"
 
 module_version = "0.2.7"
 
-name = f"{app_name.lower()}-stubs"
+name = f"{app_name.lower()}_stubs"
 
 module_version = str(sum([int(n) * 10 ** (2 - i) for i, n in enumerate(module_version.split("."))]))
 
